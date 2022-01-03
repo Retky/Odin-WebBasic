@@ -28,3 +28,14 @@ span {
 .class {
   background-color: lightgreen;
 }
+.box {
+  border: none;
+  width: 350px;
+  background: lightpink;
+  /* 04 "margin" is the space outsite the div. */
+  margin: 50px;
+  /* 05 "border" is the space inside the div. */
+  border: dotted 5px red;
+  /* 06 "padding" it limits the inside from the outside. */
+  padding: 25px;
+}
