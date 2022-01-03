@@ -1,0 +1,12 @@
+/* This file is where all the CSS code go. */
+/* remember "selector{property  : value;}"" */
+h2 {
+  background-color: lightgray;
+  color: darkblue;
+  font-size: 30px;
+}
+h7 {
+  color: yellow;
+  font-size: 18px;
+  font-style: italic;
+}
