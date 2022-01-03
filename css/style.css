@@ -10,3 +10,9 @@ h7 {
   font-size: 18px;
   font-style: italic;
 }
+div {
+  border: solid 2px;
+}
+span {
+  background-color: darkgray;
+}
