@@ -47,3 +47,27 @@ span {
   /* 09 "background-position" determinate the justification of the image. */
   background-position: center;
 }
+.text {
+  /* 10 "font-family" in this property you can list font families if one cant be read. */
+  /* 11 You can get more font families complementation from "cssfontstack". */
+  /* 12 To write a font with space requires "" or ''. */
+  font-family: Calibri,Candara,'Times New Roman',"Segoe UI",Optima,Arial,sans-serif;
+  /* 13 "font-style" change the display of the font. */
+  font-style: italic;
+  /* 14 "font-weight" change the size of the stroke. */
+  font-weight: lighter;
+  /* 15 "line-height" chagne the height between lines, can be in px or ration. */
+  line-height: 1.8;
+  /* 16 "text-align" chagne the align of the paragraph. */
+  text-align: justify;
+}
+.deco {
+  background: none;
+  /* 17 "text-decoration" can add a line, over, under or through the text. */
+  text-decoration: line-through;
+}
+.transform {
+  background: none;
+  /* 18 "text-transform" can chage to uppercase or lowercase. */
+  text-transform: capitalize;
+}
