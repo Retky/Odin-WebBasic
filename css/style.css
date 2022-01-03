@@ -39,3 +39,11 @@ span {
   /* 06 "padding" it limits the inside from the outside. */
   padding: 25px;
 }
+.container {
+  /* 07 "background-image" let us place an image for the background, with content over it. */
+  background-image: url(../img/background.jpg);
+  /* 08 "background-size" can set the aspect ration of the image or size in px or %. */
+  background-size: cover;
+  /* 09 "background-position" determinate the justification of the image. */
+  background-position: center;
+}
