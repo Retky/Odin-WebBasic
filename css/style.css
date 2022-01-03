@@ -16,3 +16,15 @@ div {
 span {
   background-color: darkgray;
 }
+/* 01 ".name" is how it's called for a class object. */
+.class {
+  border: none;
+}
+/* 02 "#name" is how it's called for an id object. */
+/* 03 "id" properties overwrite other properties despite the order. */
+#id {
+  background-color: lightblue;
+}
+.class {
+  background-color: lightgreen;
+}
