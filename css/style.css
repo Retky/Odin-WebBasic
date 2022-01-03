@@ -71,3 +71,20 @@ span {
   /* 18 "text-transform" can chage to uppercase or lowercase. */
   text-transform: capitalize;
 }
+/* 19 to change the style of the links, they need to be selected "a{}" or by a class. */
+/* 20 ":link" calls for element with an "href". */
+.style-link:link {
+  color: yellow;
+}
+/* 21 ":visited" calls for the links the browser already visited. */
+.style-link:visited {
+  color: gray;
+}
+/* 22 ":hover" calls when the cursor pass over the element. */
+.style-link:hover {
+  color: red;
+}
+/* 23 ":active" calls while the link is clicked. */
+.style-link:active {
+  color: blue;
+}
