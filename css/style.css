@@ -93,14 +93,14 @@ span {
 }
 /*
   containerTwo
-      topPart
-        --paragraph one
-      bottomPart
-        --paragraph two
-        paraThree
-          --paragraph three
-        paraFour
-          --paragraph four
+    topPart
+      ==paragraph one==
+    bottomPart
+      ==paragraph two==
+      paraThree
+        ==paragraph three==
+      paraFour
+        ==paragraph four==
   CASE: We wnat to change the paragraph three and four.
   We only wnat to change the links inside the paragraph three.
   We want to change the first and last links (class: important).
@@ -117,6 +117,22 @@ span {
 /* 26 The importance of "class" is lower than the "a", so the link edited by the tag "a" won't change. */
 .importantLink {
   color: yellowgreen;
-  /* "!important" force to overwrite any other property, shall be last case use Only. */
+  /* 27 "!important" force to overwrite any other property, shall be last case use Only. */
   color: red!important;
+}
+.lists ol {
+  /* 28 "list-style-type" can change the type of the bullet or enumeration. */
+  list-style-type: lower-alpha;
+  text-align: center;
+}
+.lists li {
+  background: lightgray;
+}
+.lists ul {
+  /* 29 "list-style-image" can set an image for the bullets, they require to be at the correct size. */
+  list-style-image: url(../img/bullet12.png);
+  text-align: center;
+  /* 30 The defaul position of the bullets is outsite the "li" element.  */
+  /* 31 "list-style-position" can set the bullets to keep it aside the text. */
+  list-style-position: inside;
 }
