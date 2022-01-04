@@ -1,0 +1,24 @@
+img {
+  background-image:url(../img/hamster.jpg);
+  background-size: cover;
+  width: 200px;
+  height: 150px;
+  /* 01 "float" allows elements in line to wrap around it. */
+  /* 02 "float" only aply for elements an not containers. */
+  float: left;
+}
+.bluebox{
+  background: blue;
+  width: 300px;
+  height: 150px;
+}
+.redbox {
+  background: rgba(255, 0, 0, 50%);
+  width: 150px;
+  height: 200px;
+  float: left;
+}
+.cleartext {
+  /* 03 "clear" controls the flow of the floated elements mext to it. */
+  clear: both;
+}
