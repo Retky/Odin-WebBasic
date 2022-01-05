@@ -23,8 +23,8 @@ img {
   clear: both;
 }
 .box {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   float: left;
 }
 .hex {
@@ -42,4 +42,11 @@ img {
   /* 08 hsla(HUE, SATURATION, LIGHTNESS(, alpha)) is optional and a percentage. */
   /* 09 Hue (Red->Green->Blue->Red), Saturation (black -> color), Lightness (black -> white). */
   background: hsla(270, 100%, 85%, 100%);
+}
+.center {
+  clear: left;
+  background: lightblue;
+  width: 300px;
+  /* 10 "margin" by set to auto for the left-right allows to center the div. */
+  margin: 0 auto;
 }
