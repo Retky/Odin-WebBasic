@@ -19,6 +19,27 @@ img {
   float: left;
 }
 .cleartext {
-  /* 03 "clear" controls the flow of the floated elements mext to it. */
+  /* 03 "clear" controls the flow of the floated elements next to it. */
   clear: both;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+.hex {
+  /* 04 "#RRGGBB(FF)" the range goes 00 -> FF, 00 more dark, FF more light. */
+  /* 05 #RED-GREEN-BLUE(-alpha) "alpha" is the transparency and is optional. */
+  background: #FF6600;
+}
+.rgba {
+  /* 06 "rgba(RRR, GGG, BBB(, AAA%))" the range goes 0 -> 255, 0 more dark, 255 more light. */
+  /* 07 rgba(RED, GREEN, BLUE(, alpha)) is optional and a percentage. */
+  background: rgba(10, 150, 10, 0.8);
+}
+.hsla {
+  /* 07 "hsla(HHH, SSS%, LLL%(, AAA%))" H range goes 0 -> 360, S, L is a percentage. */
+  /* 08 hsla(HUE, SATURATION, LIGHTNESS(, alpha)) is optional and a percentage. */
+  /* 09 Hue (Red->Green->Blue->Red), Saturation (black -> color), Lightness (black -> white). */
+  background: hsla(270, 100%, 85%, 100%);
 }
