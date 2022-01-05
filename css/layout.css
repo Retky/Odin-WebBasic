@@ -1,0 +1,65 @@
+/* 01 ":root" let all his content be called along the file. */
+:root {
+  /* 02 "--name" is how the variables are determinated. */
+  --c-backgroundGray: #202330;
+  --c-lightwhite: #ECEEEC;
+  --c-background: #D9E6E8;
+  --c-linkBlue: #3D85C6;
+  --c-hoverBlue: #B1CEE8;
+  --c-activeBlue: #1E4263;
+}
+body {
+  /* 03 "var()" is how we call a variable. */
+  background: var(--c-background);
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  margin: 0;
+}
+header {
+  background: var(--c-backgroundGray);
+  color: var(--c-lightwhite);
+  padding: 30px 0 0;
+}
+header h1 {
+  text-align: center;
+}
+nav {
+  padding-bottom: 3px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 15px;
+}
+nav a:link{
+  color: var(--c-linkBlue);
+}
+nav a:visited{
+  color: var(--c-linkBlue);
+}
+nav a:hover{
+  color: var(--c-hoverBlue);
+}
+nav a:active{
+  color: var(--c-activeBlue);
+}
+.container {
+  margin: 50px;
+}
+section {
+  float: left;
+  /* 04 we can use percentage for the sizes, it goes by its container size. */
+  width: 75%;
+  margin-bottom: 50px;
+}
+aside {
+  float: left;
+  margin: 25px;
+  width: 25%;
+}
+footer {
+  clear: both;
+  background: var(--c-backgroundGray);
+  padding: 35px;
+  text-align: center;
+  color: var(--c-lightwhite);
+}
