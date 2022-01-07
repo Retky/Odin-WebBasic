@@ -1,0 +1,37 @@
+.flex-container {
+  /* 01 This is a flex container. */
+  /* 02 "display" set an element flex of grid. */
+  display: flex;
+}
+.flex-container div {
+  /* 03 This is a flex item. */
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  /* 04 "flex" determinates how the item will grow. */
+  /* 05 when the flex parameter is only 1, its actually "flex: 1 1 0%" */
+  /* 06 flex: grow-shrink-basis. */
+  flex: 1;
+}
+.flex-properties{
+  display: flex;
+}
+.flex-properties div{
+  border: 4px solid black;
+  height: 80px;
+  width: 300px;
+  flex: 1 1 auto;
+}
+.flex-properties .flex-grow{
+  /* 07 "flex-grow" is the growth factor compare to the others items. */
+  flex-grow: 2;
+}
+.flex-properties .flex-shrink{
+  /* 08 "flex-shrink" is the shrink factore, at 0 it will keep the assigned width. */
+  flex-shrink: 0;
+}
+.flex-properties .flex-basis{
+  /* 09 "flex-basis" set the initial size of the item. */
+  /* 10 if basis is set to auto, it will look for a width parameter. */
+  flex-basis: 10%;
+}
