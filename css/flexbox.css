@@ -35,3 +35,16 @@
   /* 10 if basis is set to auto, it will look for a width parameter. */
   flex-basis: 10%;
 }
+.toColum {
+  border: solid black;
+  flex: 1;
+}
+.axes {
+  height: 200px;
+  border: solid black;
+  display: flex;
+  /* 11 "flex-direction" determinates the flow direction of the content objects. */
+  /* 12 "row" set the direction to horizontal. */
+  /* 13 "colum" set the direction to veritcal. */
+  flex-direction: column;
+}
