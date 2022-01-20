@@ -35,16 +35,25 @@
   /* 10 if basis is set to auto, it will look for a width parameter. */
   flex-basis: 10%;
 }
-.toColum {
-  border: solid black;
-  flex: 1;
-}
 .axes {
   height: 200px;
   border: solid black;
+  background: #FFFFF0;
   display: flex;
   /* 11 "flex-direction" determinates the flow direction of the content objects. */
   /* 12 "row" set the direction to horizontal. */
   /* 13 "colum" set the direction to veritcal. */
   flex-direction: column;
+  /* 14 "justify-content" change the space the items will have between each other and the border. */
+  justify-content: center;
+  /* 15 "align-items" set the position the items will hold. */
+  align-items: center;
+  /* 16 "gap" set the space between the items with each other. */
+  gap: 20px;
+}
+.toColum {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+  flex: 0 1 auto;
 }
