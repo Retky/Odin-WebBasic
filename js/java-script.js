@@ -18,3 +18,15 @@ editableVariable = 5;
 /* 09 "const" stands for constand, declares read only variables. */
 const readOnlyVariable = 'Hello';
   console.log('09 is: '+typeof(readOnlyVariable)+', value: '+readOnlyVariable)
+/* 10 Mathematical operators: =, +, -, *, /. */
+let operator = 5;
+/* 11 "=" assingment. */
+console.log('11 assingment '+operator)
+/* 12 "+" sum. */
+console.log('12 sum '+(operator+5))
+/* 13 "-" rest. */
+console.log('13 rest '+(operator-2))
+/* 14 "*" multiply. */
+console.log('14 multiply '+(operator*3))
+/* 15 "/" divide. */
+console.log('15 divide '+(operator/2))
