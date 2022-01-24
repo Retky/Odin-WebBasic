@@ -50,3 +50,6 @@ console.log('19 short-hand divide '+operator)
 /* 20 "++" sums one. */
 operator ++;
 console.log('20 sumOne '+operator)
+/* 21 "DOM" stands for Document Object Model, this represent the web page. */
+/* 22 "document.write(what to print)" prints the content in the DOM. */
+document.write('22 This message is written throw js.')
