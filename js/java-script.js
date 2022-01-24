@@ -53,3 +53,12 @@ console.log('20 sumOne '+operator)
 /* 21 "DOM" stands for Document Object Model, this represent the web page. */
 /* 22 "document.write(what to print)" prints the content in the DOM. */
 document.write('22 This message is written throw js.')
+/* 23 booleans have two options to return (true/false). */
+let bool = true;
+console.log('23 boolean: '+bool)
+console.log(7>5)
+console.log(8<3)
+/* 24 "==" means equal to. */
+console.log(5==5)
+/* 25 "!" logical not. */
+console.log(5!=5)
