@@ -19,14 +19,34 @@ editableVariable = 5;
 const readOnlyVariable = 'Hello';
   console.log('09 is: '+typeof(readOnlyVariable)+', value: '+readOnlyVariable)
 /* 10 Mathematical operators: =, +, -, *, /. */
-let operator = 5;
-/* 11 "=" assingment. */
+let operator;
+/* 11 "=" Assingment. */
+operator = 5;
 console.log('11 assingment '+operator)
-/* 12 "+" sum. */
-console.log('12 sum '+(operator+5))
-/* 13 "-" rest. */
-console.log('13 rest '+(operator-2))
-/* 14 "*" multiply. */
-console.log('14 multiply '+(operator*3))
-/* 15 "/" divide. */
-console.log('15 divide '+(operator/2))
+/* 12 "+" Sum. */
+operator = operator+10;
+console.log('12 sum '+operator)
+/* 13 "-" Rest. */
+operator = operator-5;
+console.log('13 rest '+operator)
+/* 14 "*" Multiply. */
+operator = operator*2;
+console.log('14 multiply '+operator)
+/* 15 "/" Divide. */
+operator = operator/4;
+console.log('15 divide '+operator)
+/* 16 "+=" Short-hand sum. */
+operator += 5;
+console.log('16 short-hand sum '+operator)
+/* 17 "-=" Short-hand rest. */
+operator -= 2;
+console.log('17 short-hand rest '+operator)
+/* 18 "*=" Short-hand multiply. */
+operator *= 10;
+console.log('18 short-hand multiply '+operator)
+/* 19 "/=" Short-hand divide. */
+operator /= 20;
+console.log('19 short-hand divide '+operator)
+/* 20 "++" sums one. */
+operator ++;
+console.log('20 sumOne '+operator)
