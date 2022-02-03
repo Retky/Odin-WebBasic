@@ -99,3 +99,15 @@ if (myAge >= 18 && myAge <= 30) {
 if (myAge >= 18 || myAge <= 15) {
     console.log("32 \"or\" operator")
 }
+let newAge = 5;
+/* 33 "while" create a loop, ejecutes many times the condition is true. */
+while (newAge < 7) {
+    console.log("33 while loop")
+    newAge++
+}
+/* 34 This ejecutes when the loop end. */
+console.log("34 loop end")
+/* 35 "for(variable; condition; increment)" create a loop with the declarations. */
+for (i = 1; i < 3; i++) {
+    console.log("35 for loop")
+}
