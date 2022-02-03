@@ -11,54 +11,82 @@ var myVariable;
 /* 06 "let" modern form to declare a variable. */
 /* 07 if the variable is declare without any content it means is undefine. */
 let editableVariable;
-  console.log('07 is: '+typeof(editableVariable))
+console.log('07 is: ' + typeof (editableVariable))
 /* 08 we can define the variable after been created by adding content. */
 editableVariable = 5;
-  console.log('08 is: '+typeof(editableVariable)+', value: '+editableVariable)
+console.log('08 is: ' + typeof (editableVariable) + ', value: ' + editableVariable)
 /* 09 "const" stands for constand, declares read only variables. */
 const readOnlyVariable = 'Hello';
-  console.log('09 is: '+typeof(readOnlyVariable)+', value: '+readOnlyVariable)
+console.log('09 is: ' + typeof (readOnlyVariable) + ', value: ' + readOnlyVariable)
 /* 10 Mathematical operators: =, +, -, *, /. */
 let operator;
 /* 11 "=" Assingment. */
 operator = 5;
-console.log('11 assingment '+operator)
+console.log('11 assingment ' + operator)
 /* 12 "+" Sum. */
-operator = operator+10;
-console.log('12 sum '+operator)
+operator = operator + 10;
+console.log('12 sum ' + operator)
 /* 13 "-" Rest. */
-operator = operator-5;
-console.log('13 rest '+operator)
+operator = operator - 5;
+console.log('13 rest ' + operator)
 /* 14 "*" Multiply. */
-operator = operator*2;
-console.log('14 multiply '+operator)
+operator = operator * 2;
+console.log('14 multiply ' + operator)
 /* 15 "/" Divide. */
-operator = operator/4;
-console.log('15 divide '+operator)
+operator = operator / 4;
+console.log('15 divide ' + operator)
 /* 16 "+=" Short-hand sum. */
 operator += 5;
-console.log('16 short-hand sum '+operator)
+console.log('16 short-hand sum ' + operator)
 /* 17 "-=" Short-hand rest. */
 operator -= 2;
-console.log('17 short-hand rest '+operator)
+console.log('17 short-hand rest ' + operator)
 /* 18 "*=" Short-hand multiply. */
 operator *= 10;
-console.log('18 short-hand multiply '+operator)
+console.log('18 short-hand multiply ' + operator)
 /* 19 "/=" Short-hand divide. */
 operator /= 20;
-console.log('19 short-hand divide '+operator)
+console.log('19 short-hand divide ' + operator)
 /* 20 "++" sums one. */
-operator ++;
-console.log('20 sumOne '+operator)
+operator++;
+console.log('20 sumOne ' + operator)
 /* 21 "DOM" stands for Document Object Model, this represent the web page. */
 /* 22 "document.write(what to print)" prints the content in the DOM. */
 document.write('22 This message is written throw js.')
 /* 23 booleans have two options to return (true/false). */
 let bool = true;
-console.log('23 boolean: '+bool)
-console.log(7>5)
-console.log(8<3)
+console.log('23 boolean: ' + bool)
+console.log(7 > 5)
+console.log(8 < 3)
 /* 24 "==" means equal to. */
-console.log(5==5)
+console.log(5 == 5)
 /* 25 "!" logical not. */
-console.log(5!=5)
+console.log(5 != 5)
+/* 26 "===" Equal value and type. */
+console.log("5" === 5)
+/* 27 "!==" Not equal valua nd type. */
+console.log("5" !== 5)
+
+let youLikeMeat = true;
+/* 28 "if (condition)" check for the condition to be true to ejecute. */
+if (youLikeMeat) {
+    console.log("28 Here is the meaty menu...")
+}
+let myNum = 8;
+if (myNum > 10) {
+    console.log(10)
+/* 29 "else" ejecutes when the condition is false. */
+} else {
+    console.log("29 Not 10")
+}
+let age = 28;
+if (age > 30) {
+    console.log ("age over 30")
+/* 30 "else if" check other conditions. */
+} else if (age > 20) {
+    console.log ("age over 20")
+} else if (age > 10) {
+    console.log ("age over 10")
+} else {
+    console.log("age not over 10")
+}
