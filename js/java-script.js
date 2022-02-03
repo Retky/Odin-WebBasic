@@ -70,23 +70,32 @@ console.log("5" !== 5)
 let youLikeMeat = true;
 /* 28 "if (condition)" check for the condition to be true to ejecute. */
 if (youLikeMeat) {
-    console.log("28 Here is the meaty menu...")
+    console.log("28 if")
 }
 let myNum = 8;
 if (myNum > 10) {
     console.log(10)
 /* 29 "else" ejecutes when the condition is false. */
 } else {
-    console.log("29 Not 10")
+    console.log("29 else")
 }
 let age = 28;
 if (age > 30) {
-    console.log ("age over 30")
+    console.log("age over 30")
 /* 30 "else if" check other conditions. */
 } else if (age > 20) {
-    console.log ("age over 20")
+    console.log("30 if else")
 } else if (age > 10) {
-    console.log ("age over 10")
+    console.log("age over 10")
 } else {
     console.log("age not over 10")
+}
+let myAge = 25;
+/* 31 "&&" And operator, both conditions need to be true to ejecute. */
+if (myAge >= 18 && myAge <= 30) {
+    console.log("31 \"and\" operator")
+}
+/* 32 "||" Or operator, with one condition true ejecutes. */
+if (myAge >= 18 || myAge <= 15) {
+    console.log("32 \"or\" operator")
 }
