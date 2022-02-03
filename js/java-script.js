@@ -108,6 +108,16 @@ while (newAge < 7) {
 /* 34 This ejecutes when the loop end. */
 console.log("34 loop end")
 /* 35 "for(variable; condition; increment)" create a loop with the declarations. */
-for (i = 1; i < 3; i++) {
-    console.log("35 for loop")
+for (i = 1; i < 15; i++) {
+    if (i >= 3 && i <= 8) {
+        console.log("36 continue")
+        continue
+    }
+    if (i == 10) {
+        /* 36 "break" Stop the loop. */
+        console.log("37 break")
+        break
+    }
+    /* !!The ejecution needs to be after the conditions, else will ejecutes and then compare. */
+    console.log("35 for loop " + i)
 }
