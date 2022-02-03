@@ -125,6 +125,18 @@ for (i = 1; i < 15; i++) {
 function getAvarage(a,b) {
     let avarage = (a + b / 2)
     console.log("37 function " + avarage)
+    /* 38 "return" asign the content  */
+    return avarage
 }
 /* functions need to be called. */
 getAvarage(5, 3)
+
+/* 39 global variable can be used anywhere in the code. */
+let glob = "39 global var";
+function loc(a) {
+    console.log(glob)
+    /* 40 local variable can only be used inside where it is declared. */
+    let loc = "40 local var";
+    console.log(loc)
+}
+loc(3)
