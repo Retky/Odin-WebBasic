@@ -7,7 +7,7 @@
 /* 04 "console.log(what to print)" print information to the console. */
 console.log('Hello')
 /* 05 "var" stands for variable, avoid using this anymore!. */
-var myVariable;
+// var myVariable;
 /* 06 "let" modern form to declare a variable. */
 /* 07 if the variable is declare without any content it means is undefine. */
 let editableVariable;
@@ -111,7 +111,7 @@ console.log("34 loop end")
 for (i = 1; i < 15; i++) {
     if (i >= 3 && i <= 8) {
         console.log("36 continue")
-        continue
+        // continue
     }
     if (i == 10) {
         /* 36 "break" Stop the loop. */
@@ -121,3 +121,10 @@ for (i = 1; i < 15; i++) {
     /* !!The ejecution needs to be after the conditions, else will ejecutes and then compare. */
     console.log("35 for loop " + i)
 }
+/* 37 "function name(values)" This declares is a function. */
+function getAvarage(a,b) {
+    let avarage = (a + b / 2)
+    console.log("37 function " + avarage)
+}
+/* functions need to be called. */
+getAvarage(5, 3)
