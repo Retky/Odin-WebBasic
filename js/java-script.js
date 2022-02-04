@@ -196,4 +196,11 @@ myCar2 = {
         console.log("57 now driving")
     }
 }
-console.log(myCar2)
+let thisUse = {
+    data: 3,
+    test: function () {
+        /* 58 "this" calls the partner where it's written. */
+        console.log(this)
+    }
+}
+thisUse.test()
