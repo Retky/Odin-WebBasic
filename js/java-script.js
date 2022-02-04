@@ -204,3 +204,10 @@ let thisUse = {
     }
 }
 thisUse.test()
+/* 59 "construction function" this function create objects that have the same type of content. */
+let Car = function (maxSpeed, driver) {
+    this.maxSpeed = maxSpeed;
+    this.driver = driver;
+}
+let newCar = new Car (20, "steve")
+console.log(newCar);
