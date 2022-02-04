@@ -140,3 +140,19 @@ function loc(a) {
     console.log(loc)
 }
 loc(3)
+/* 41 This is a number. */
+let a = 5;
+/* 42 This is a string. */
+let b = "5";
+/* 43 the "a+b" will be concatenation. */
+console.log(a + b)
+/* 44 "Math.propertie(value)" is used for Mathematical functions. */
+console.log(Math.round(7.5))
+/* 45 "floor" round to under number. */
+console.log(Math.floor(7.8));
+/* 46 "ceil" round to upper number. */
+console.log(Math.ceil(7.1));
+/* 47 "max" return the highest number. */
+console.log(Math.max(7, 9, 3, 2));
+/* 48 "PI" return the value of PI. */
+console.log(Math.PI);
