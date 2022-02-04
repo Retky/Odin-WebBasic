@@ -10,6 +10,7 @@ let myBody = document.getElementsByTagName("body");
 let title = document.getElementById('pageTitle');
 /* 06 Can change the content of nodes. */
 //title.textContent = "Hello World!"
+
 let link = document.getElementById('test');
 
 console.log(
@@ -26,3 +27,10 @@ console.log(
 )
 /* 09 Can set a new attribute to a node. */
 link.setAttribute("alt", "the link")
+
+/* 10 ".style." can set or chage style of the node. */
+title.style.top = "30px"
+title.style.color = "red"
+/* 11 In javaScript "-" is not used. */
+/* background-color => backgroundColor */
+title.style.backgroundColor = "white"
