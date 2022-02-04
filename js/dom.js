@@ -34,3 +34,15 @@ title.style.color = "red"
 /* 11 In javaScript "-" is not used. */
 /* background-color => backgroundColor */
 title.style.backgroundColor = "white"
+
+/* 12 to at elements in the page, first we need to create them in js. */
+let newLi = document.createElement ("li")
+let newA = document.createElement ("a")
+
+let menu = document.getElementsByClassName("nav")[0].getElementsByTagName("ul")[0]
+/* 13 "node.appendChild(element)" is used to add a new element to the node. */
+menu.appendChild(newLi)
+newLi.appendChild(newA)
+newA.innerHTML = "Blog"
+/* 14 "node.insertBefore(element, place)" is used to select where to set the element. */
+menu.insertBefore(newLi, menu.getElementsByTagName("li")[0])
