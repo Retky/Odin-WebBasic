@@ -159,3 +159,6 @@ console.log("48 " + Math.PI)
 let c = "apple";
 /* 49 "NaN" stands for Not A Number. */
 console.log("49 " + a * c)
+/* 50 Strings use "" or '', can be use inside a string with "\" berofre them. */
+let myString = 'This is a "String", or \'String\' '
+console.log("50 " + myString)
