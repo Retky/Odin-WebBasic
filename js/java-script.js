@@ -162,3 +162,13 @@ console.log("49 " + a * c)
 /* 50 Strings use "" or '', can be use inside a string with "\" berofre them. */
 let myString = 'This is a "String", or \'String\' '
 console.log("50 " + myString)
+
+let str = "hello, world";
+console.log(str)
+/* 51 "var.slice(from, to)" is used to keep only the content inside the parameters. */
+/* 52 The count of items start from 0. */
+let str2 = str.slice(2, 9);
+console.log("51 " + str2)
+let tags = "meat, ham, salami, pork, beef, chicken";
+let tagArray = tags.split(", ")
+console.log(tagArray)
