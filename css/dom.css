@@ -1,0 +1,26 @@
+body{
+    background: #30383e;
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    background: #383842;
+    height: 30px;
+}
+.notes {
+    margin: 30px 50px 0;
+    background: #a8a8a8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.img {
+    background: #4d362e;
+    height: 100px;
+    width: 350px;
+}
+footer {
+    margin-top: 80px;
+}
