@@ -211,3 +211,11 @@ let Car = function (maxSpeed, driver) {
 }
 let newCar = new Car (20, "steve")
 console.log(newCar);
+/* 60 "Date()" return the user date. */
+let myDate = new Date()
+console.log("60 " + myDate)
+/* 61 "Date(YYYY, MM, DD, hour, minutes, seconds)" */
+let pastDate = new Date(1745, 11, 22, 15, 30, 05)
+console.log(pastDate)
+/* 62 "var.getTime()" return the time in mileseconds to 1970(unix invention''). */
+console.log("62 " + pastDate.getTime())
