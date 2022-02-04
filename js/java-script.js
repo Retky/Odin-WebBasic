@@ -170,5 +170,9 @@ console.log(str)
 let str2 = str.slice(2, 9);
 console.log("51 " + str2)
 let tags = "meat, ham, salami, pork, beef, chicken";
+/* 53 "var.split("condition")" separate an stirng in array elements by the condition. */
 let tagArray = tags.split(", ")
 console.log(tagArray)
+/* 54 "[]" declares the variable is an array, is a single variabel that can hold multiple values. */
+let myArray = [];
+console.log(myArray)
