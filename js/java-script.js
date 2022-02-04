@@ -173,6 +173,27 @@ let tags = "meat, ham, salami, pork, beef, chicken";
 /* 53 "var.split("condition")" separate an stirng in array elements by the condition. */
 let tagArray = tags.split(", ")
 console.log(tagArray)
-/* 54 "[]" declares the variable is an array, is a single variabel that can hold multiple values. */
+/* 54 "[]" declares the variable is an array, a single variabel that can hold multiple values. */
 let myArray = [];
 console.log(myArray)
+/* 55 "{}" declares the variable is an object, a container that holds data.*/
+let myCar = {};
+/* 56 "variable.propertie" is the propertie inside an object. */
+myCar.maxSpeed = 50;
+myCar.driver = 'Shaun';
+/* 57 this is how to declare a function inside an ombject. */
+myCar.drive = function () {
+    console.log("57 now driving")
+}
+console.log(myCar)
+console.log("56 " + myCar.driver);
+myCar.drive()
+/* 57 This is how an object can be written with his content. */
+myCar2 = {
+    maxSpeed: 70,
+    driver: "John",
+    drive: function () {
+        console.log("57 now driving")
+    }
+}
+console.log(myCar2)
