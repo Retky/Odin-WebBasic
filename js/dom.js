@@ -10,3 +10,19 @@ let myBody = document.getElementsByTagName("body");
 let title = document.getElementById('pageTitle');
 /* 06 Can change the content of nodes. */
 //title.textContent = "Hello World!"
+let link = document.getElementById('test');
+
+console.log(
+/* 07 ".getAttribute" Can get the attribute of a node. */
+    link.getAttribute("href")
+)
+console.log(
+    link.getAttribute("class")
+)
+/* 08 Can change the attribute of a node. */
+link.setAttribute("class", "pie")
+console.log(
+    link.getAttribute("class")
+)
+/* 09 Can set a new attribute to a node. */
+link.setAttribute("alt", "the link")
