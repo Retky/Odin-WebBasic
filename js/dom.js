@@ -52,3 +52,9 @@ let parent = document.getElementById("main");
 let child = parent.getElementsByTagName("h1")[0];
 /* 16 "node.removeChild(element)" is used to remove the element from the node. */
 parent.removeChild(child)
+
+/**/
+let even = document.getElementById("one")
+even.onclick = function () {
+    alert("you clicked me")
+}
