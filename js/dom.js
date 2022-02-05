@@ -35,7 +35,7 @@ title.style.color = "red"
 /* background-color => backgroundColor */
 title.style.backgroundColor = "white"
 
-/* 12 to at elements in the page, first we need to create them in js. */
+/* 12 to add elements in the page, first we need to create them in js. */
 let newLi = document.createElement ("li")
 let newA = document.createElement ("a")
 
@@ -46,3 +46,9 @@ newLi.appendChild(newA)
 newA.innerHTML = "Blog"
 /* 14 "node.insertBefore(element, place)" is used to select where to set the element. */
 menu.insertBefore(newLi, menu.getElementsByTagName("li")[0])
+
+/* 15 to remove elements we need to select the parent node. */
+let parent = document.getElementById("main");
+let child = parent.getElementsByTagName("h1")[0];
+/* 16 "node.removeChild(element)" is used to remove the element from the node. */
+parent.removeChild(child)
